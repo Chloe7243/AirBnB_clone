@@ -8,15 +8,15 @@
   align-items: center;
   height: fit-content;
   justify-content: center;
-  padding: 1rem;
-  gap: 1rem;
 }
 
 .filters > .locations,
 .filters > .amenities {
   height: 100%;
   width: 25%;
+  padding-left: 1.5rem;
   min-width: fit-content;
+  position: relative;
 }
 
 .filters > div > h3 {
@@ -93,8 +93,6 @@
 @media screen and (min-width: 461px) {
   .filters {
     justify-content: initial;
-    position: relative;
-    gap: 1.5rem;
   }
 
   .filters > button {
@@ -104,10 +102,14 @@
 }
 
 @media screen and (max-width: 460px) {
+  .filters {
+    padding-bottom: 1rem;
+  }
+
   .filters .amenities,
   .filters .locations {
+    padding: 1rem;
     width: 100%;
-    padding: 0;
   }
 
   .locations {

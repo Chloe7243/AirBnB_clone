@@ -6,13 +6,15 @@
   position: relative;
   display: flex;
   align-items: center;
+  position: relative;
+  padding: 1rem;
+  gap: 1rem;
 }
 
 .locations,
 .amenities {
   height: 100%;
   width: 25%;
-  margin-left: 1.5rem;
 }
 
 .filters > div > h3 {
@@ -28,6 +30,7 @@
 .filters > .locations {
   border-right: 1px solid #ddd;
 }
+
 
 .filters > button {
   border: none;

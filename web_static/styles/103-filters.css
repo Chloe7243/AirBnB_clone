@@ -8,8 +8,9 @@
   align-items: center;
   height: fit-content;
   justify-content: center;
-  padding: 1rem;
+  padding: 0 1rem;
   gap: 1rem;
+  position: relative;
 }
 
 .filters > .locations,
@@ -17,6 +18,7 @@
   height: 100%;
   width: 25%;
   min-width: fit-content;
+  position: relative;
 }
 
 .filters > div > h3 {
@@ -36,7 +38,6 @@
 .popover,
 .popover > li > ul {
   list-style-type: none;
-  z-index: 2;
   margin: 0;
   padding: 0;
 }
